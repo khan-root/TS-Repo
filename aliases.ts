@@ -8,10 +8,10 @@ type User = {
 } 
 
 
-const user : User={
-    name: 'Ali',
-    age:12
-}
+// const user : User={
+//     name: 'Ali',
+//     age:12
+// }
 
 
 // User after params is type what you want to return 
@@ -20,4 +20,4 @@ function getUser(userData:User) : User{
     return userData
 }
 
-console.log(getUser)
+console.log(getUser({name:'two', age:12}))

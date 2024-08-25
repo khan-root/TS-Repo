@@ -13,4 +13,11 @@ const user : User={
     age:12
 }
 
-console.log(user)
+
+// User after params is type what you want to return 
+
+function getUser(userData:User) : User{
+    return userData
+}
+
+console.log(getUser)
